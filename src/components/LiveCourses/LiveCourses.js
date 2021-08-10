@@ -6,27 +6,27 @@ import CourseCard from '../SharedComponents/CourseCard/CourseCard';
 import '../../style.css'
 
 function SampleNextArrow(props) {
-    const { className, style, onClick } = props;
+    const { className, onClick } = props;
     return (
       <button
         className={className}
         style={{ background: "#eee", fontSize: '30px', width: '50px', height: "50px", color: '#aaa', borderRadius: '50%', textAlign: 'center' }}
         onClick={onClick}
       >
-          <i class="fas fa-chevron-right"></i>
+          <i className="fas fa-chevron-right"></i>
       </button>    
     );
   }
   
   function SamplePrevArrow(props) {
-    const { className, style, onClick } = props;
+    const { className, onClick } = props;
     return (
       <div
         className={className}
         style={{ background: "#eee", fontSize: '30px', width: '50px', height: "50px", color: '#aaa', borderRadius: '50%', textAlign: 'center' }}
         onClick={onClick}
       >
-          <i class="fas fa-chevron-left"></i>
+          <i className="fas fa-chevron-left"></i>
       </div>
     );
   }

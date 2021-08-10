@@ -1,36 +1,67 @@
 import React from 'react';
-import './Navbar.css';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
 
 const Navbar = () => {
+
+    const settings = {
+        dots: false,
+        infinite: false,
+        slidesToShow: 10,
+        slidesToScroll: 1,
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 7,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 750,
+              settings: {
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                initialSlide: 4
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 1
+              }
+            }
+        ]
+    };
+
     return (
-        <div className="navbar-comp">
-            <nav className="navbar navbar-expand-lg navbar-light">
-                <div className="container-fluid">
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div className="navbar-nav mx-auto">
-                            <i className="fas fa-angle-left my-auto bg-white p-1 rounded-circle text-secondary"></i>
-                            <a className="nav-link text-white" href="#">Home</a>
-                            <a className="nav-link text-white" href="#">Features</a>
-                            <a className="nav-link text-white" href="#">Pricing</a>
-                            <a className="nav-link text-white" href="#">Accounting</a>
-                            <a className="nav-link text-white" href="#">Home</a>
-                            <a className="nav-link text-white" href="#">Features</a>
-                            <a className="nav-link text-white" href="#">Pricing</a>
-                            <a className="nav-link text-white" href="#">Accounting</a>
-                            <a className="nav-link text-white" href="#">Home</a>
-                            <a className="nav-link text-white" href="#">Features</a>
-                            <a className="nav-link text-white" href="#">Pricing</a>
-                            <a className="nav-link text-white" href="#">Accounting</a>
-                            <a className="nav-link text-white" href="#">Home</a>
-                            <a className="nav-link text-white" href="#">Features</a>
-                            <i className="fas fa-angle-right my-auto bg-white p-1 rounded-circle text-secondary"></i>
-                        </div>
+        <div className="container-fluid bg-secondary">
+            <div className="container">
+                <div className="row justify-content-center align-items-center">
+                    <div className="col-12">
+                        <Slider className="fw-bold" {...settings}>
+                                    
+                                    <a className="nav-link text-white" href="/">Home</a>
+                                    <a className="nav-link text-white" href="/">Features</a>
+                                    <a className="nav-link text-white" href="/">Pricing</a>
+                                    <a className="nav-link text-white" href="/">Accounting</a>
+                                    <a className="nav-link text-white" href="/">Home</a>
+                                    <a className="nav-link text-white" href="/">Features</a>
+                                    <a className="nav-link text-white" href="/">Pricing</a>
+                                    <a className="nav-link text-white" href="/">Accounting</a>
+                                    <a className="nav-link text-white" href="/">Home</a>
+                                    <a className="nav-link text-white" href="/">Features</a>
+                                    <a className="nav-link text-white" href="/">Pricing</a>
+                                    <a className="nav-link text-white" href="/">Accounting</a>
+                                    <a className="nav-link text-white" href="/">Home</a>
+                                    <a className="nav-link text-white" href="/">Features</a>
+                                    
+                        </Slider>
                     </div>
-                </div>
-            </nav>
+                </div>            
+            </div>
         </div>
     );
 };

@@ -3,7 +3,7 @@ import Card from '../SharedComponents/Card/Card';
 
 const OurFocus = () => {
     return (
-        <div className="OurFocus bg-light py-5 my-5">
+        <div className="OurFocus py-5 my-5" style={{ backgroundColor: '#eee' }}>
             <h2 className="text-secondary fw-normal display-6 text-center">
                 Our <span className="text-blue fw-bold">Focus On You</span>
             </h2>
@@ -15,6 +15,7 @@ const OurFocus = () => {
                         <Card 
                             title='Technical Skills'
                             details='lorem lorem lorem lorem lorem lorem'
+                            bgColor='#eee'
                             textCenter= { true }
                         >
                             <img src="online-learning 1.png" className="w-25" alt="" />
@@ -24,6 +25,7 @@ const OurFocus = () => {
                         <Card 
                             title='Creative Skills'
                             details='lorem lorem lorem lorem lorem lorem'
+                            bgColor='#eee'
                             textCenter= { true }
                         >
                             <img src="online-learning 1.png" className="w-25" alt="" />
@@ -33,6 +35,7 @@ const OurFocus = () => {
                         <Card 
                             title='Practical Experience'
                             details='lorem lorem lorem lorem lorem lorem'
+                            bgColor='#eee'
                             textCenter= { true }
                         >
                             <img src="online-learning 1.png" className="w-25" alt="" />
