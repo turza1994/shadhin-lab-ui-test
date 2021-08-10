@@ -1,6 +1,8 @@
 import './App.css';
 import BecomeInstructor from './components/BecomeInstructor/BecomeInstructor';
 import BestCourses from './components/BestCourses/BestCourses';
+import FeaturesAndValue from './components/FeaturesAndValue/FeaturesAndValue';
+import GrowingFast from './components/GrowingFast/GrowingFast';
 import Header from './components/Header/Header';
 import LiveCourses from './components/LiveCourses/LiveCourses';
 import OurFocus from './components/OurFocus/OurFocus';
@@ -17,6 +19,8 @@ function App() {
       <BecomeInstructor />
       <UpcomingCourses />
       <OurFocus />
+      <GrowingFast />
+      <FeaturesAndValue />
     </div>
   );
 }
