@@ -3,6 +3,8 @@ import BecomeInstructor from './components/BecomeInstructor/BecomeInstructor';
 import BestCourses from './components/BestCourses/BestCourses';
 import Header from './components/Header/Header';
 import LiveCourses from './components/LiveCourses/LiveCourses';
+import OurFocus from './components/OurFocus/OurFocus';
+import UpcomingCourses from './components/UpcomingCourses/UpcomingCourses';
 import WhyAreYouHere from './components/WhyAreYouHere/WhyAreYouHere';
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
       <BestCourses />
       <LiveCourses />
       <BecomeInstructor />
+      <UpcomingCourses />
+      <OurFocus />
     </div>
   );
 }
