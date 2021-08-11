@@ -17,11 +17,11 @@ const SubscribeNewsletter = () => {
                         <form className="form-floating">
                             <input type="email" className="form-control w-50 border-0 border-bottom d-inline" id="floatingInputValue" placeholder="name@example.com" style={{ backgroundColor: '#676DDB' }} />
                             <i className="fas fa-paper-plane text-warning btn"></i>
-                            <label for="floatingInputValue">Enter your email</label>
+                            <label htmlFor="floatingInputValue">Enter your email</label>
 
                             <div className="form-check mt-4">
                                 <input className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
-                                <label className="form-check-label" for="flexRadioDefault1">
+                                <label className="form-check-label" htmlFor="flexRadioDefault1">
                                     I agree to all terms
                                 </label>
                             </div>  

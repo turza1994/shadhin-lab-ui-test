@@ -2,6 +2,7 @@ import './App.css';
 import BecomeInstructor from './components/BecomeInstructor/BecomeInstructor';
 import BestCourses from './components/BestCourses/BestCourses';
 import FeaturesAndValue from './components/FeaturesAndValue/FeaturesAndValue';
+import Footer from './components/Footer/Footer';
 import GrowingFast from './components/GrowingFast/GrowingFast';
 import Header from './components/Header/Header';
 import LiveCourses from './components/LiveCourses/LiveCourses';
@@ -25,6 +26,7 @@ function App() {
       <FeaturesAndValue />
       <TruePotential />
       <SubscribeNewsletter />
+      <Footer />
     </div>
   );
 }
