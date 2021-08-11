@@ -50,7 +50,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="py-2 d-flex justify-content-between" style={{ backgroundColor: 'ddd' }}>
+            <div className="py-2 d-flex justify-content-between lead fs-6" style={{ backgroundColor: '#ddd' }}>
                 <span className="ps-5">2021 Coder Trust</span>
                 <span className="pe-5">All Right Reserved</span>
             </div>

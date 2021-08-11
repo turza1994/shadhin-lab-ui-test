@@ -8,6 +8,7 @@ import Header from './components/Header/Header';
 import LiveCourses from './components/LiveCourses/LiveCourses';
 import OurFocus from './components/OurFocus/OurFocus';
 import SubscribeNewsletter from './components/SubscribeNewsletter/SubscribeNewsletter';
+import SuccessStories from './components/SuccessStories/SuccessStories';
 import TruePotential from './components/TruePotential/TruePotential';
 import UpcomingCourses from './components/UpcomingCourses/UpcomingCourses';
 import WhyAreYouHere from './components/WhyAreYouHere/WhyAreYouHere';
@@ -25,6 +26,7 @@ function App() {
       <GrowingFast />
       <FeaturesAndValue />
       <TruePotential />
+      <SuccessStories />
       <SubscribeNewsletter />
       <Footer />
     </div>
