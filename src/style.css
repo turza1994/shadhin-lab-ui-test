@@ -13,6 +13,9 @@
 .bg-orange{
     background-color: rgb(247, 148, 0);
 }
+.bg-violet{
+    background-color: #676DDB;
+}
 .Card:hover{
     box-shadow: 0 4px 18px 0 rgba(153, 153, 153, 0.2), 0 6px 28px 0 rgba(0, 0, 0, 0.19);
     background-color: white !important ;

@@ -14,7 +14,7 @@ const FeaturesAndValue = () => {
                             details="lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem"
                             textCenter= {true}
                         >
-                            <img src="online-learning 1.png" className="w-25" alt="" />
+                            <img src="online-learning 1.png" className="w-25 bg-orange rounded p-2" alt="" />
                         </Card>
                     </div>
                     <div className="col-12 col-sm-4">
@@ -23,7 +23,7 @@ const FeaturesAndValue = () => {
                             details="lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem"
                             textCenter= {true}
                         >
-                            <img src="online-learning 1.png" className="w-25" alt="" />
+                            <img src="online-learning 1.png" className="w-25 bg-warning rounded p-2 " alt="" />
                         </Card>
                     </div>
                     <div className="col-12 col-sm-4">
@@ -32,7 +32,7 @@ const FeaturesAndValue = () => {
                             details="lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem"
                             textCenter= {true}
                         >
-                            <img src="online-learning 1.png" className="w-25" alt="" />
+                            <img src="online-learning 1.png" className="w-25 bg-violet rounded p-2" alt="" />
                         </Card>
                     </div>    
                     <div className="col-12 col-sm-4">
@@ -41,7 +41,7 @@ const FeaturesAndValue = () => {
                             details="lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem"
                             textCenter= {true}
                         >
-                            <img src="online-learning 1.png" className="w-25" alt="" />
+                            <img src="online-learning 1.png" className="w-25 bg-primary rounded p-2" alt="" />
                         </Card>
                     </div>
                     <div className="col-12 col-sm-4">
@@ -50,7 +50,7 @@ const FeaturesAndValue = () => {
                             details="lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem"
                             textCenter= {true}
                         >
-                            <img src="online-learning 1.png" className="w-25" alt="" />
+                            <img src="online-learning 1.png" className="w-25 bg-green rounded p-2" alt="" />
                         </Card>
                     </div>
                     <div className="col-12 col-sm-4">
@@ -59,7 +59,7 @@ const FeaturesAndValue = () => {
                             details="lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem"
                             textCenter= {true}
                         >
-                            <img src="online-learning 1.png" className="w-25" alt="" />
+                            <img src="online-learning 1.png" className="w-25 bg-violet rounded p-2" alt="" />
                         </Card>
                     </div>
                 </div>

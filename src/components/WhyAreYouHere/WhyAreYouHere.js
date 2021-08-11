@@ -12,8 +12,6 @@ import vector69Stroke from '../SharedComponents/Vector 69 (Stroke).svg';
 const WhyAreYouHere = () => {
     return (
         <div className="WhyAreYouHere py-4 my-4 text-secondary">
-            <img src={vector68Stroke} alt="" style={{ position: 'absolute', top: '0', right: 0 }} />
-            <img src={vector69Stroke} alt="" style={{ position: 'absolute', top: '0', right: 0 }} />
             <p className="text-center text-lightGrey lh-1 lead">Over 12345+ Courses</p>
             <h2 className="text-center display-6 fw-bolder lh-1">Why You Are Here ?</h2>
             <br />

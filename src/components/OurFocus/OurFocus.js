@@ -1,5 +1,9 @@
 import React from 'react';
 import Card from '../SharedComponents/Card/Card';
+import creativity from '../SharedComponents/creativity.svg';
+import laptop from '../SharedComponents/laptop.svg';
+import solution from '../SharedComponents/solution.svg';
+
 
 const OurFocus = () => {
     return (
@@ -18,7 +22,7 @@ const OurFocus = () => {
                             bgColor='#eee'
                             textCenter= { true }
                         >
-                            <img src="online-learning 1.png" className="w-25" alt="" />
+                            <img src={laptop} className="w-25 bg-orange rounded p-2" alt="" />
                         </Card>
                     </div>
                     <div className="col-12 col-sm-6 col-md-4">
@@ -28,7 +32,7 @@ const OurFocus = () => {
                             bgColor='#eee'
                             textCenter= { true }
                         >
-                            <img src="online-learning 1.png" className="w-25" alt="" />
+                            <img src={creativity} className="w-25 bg-green rounded p-2" alt="" />
                         </Card>
                     </div>
                     <div className="col-12 col-sm-6 col-md-4">
@@ -38,7 +42,7 @@ const OurFocus = () => {
                             bgColor='#eee'
                             textCenter= { true }
                         >
-                            <img src="online-learning 1.png" className="w-25" alt="" />
+                            <img src={solution} className="w-25 bg-warning rounded p-2" alt="" />
                         </Card>
                     </div>
                 </div>
