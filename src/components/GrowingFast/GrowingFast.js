@@ -2,7 +2,7 @@ import React from 'react';
 
 const GrowingFast = () => {
     return (
-        <div className="container rounded my-5 py-4" style={{ backgroundColor: '#E6F8E3', width: '60%' }} >
+        <div className="container rounded my-5 py-4" style={{ backgroundColor: '#E6F8E3', backgroundImage: "url('Group 30605.png')", width: '60%', backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }} >
             <div className="container">
                 <div className="row">
                     <div className="col-12 col-sm-7 d-flex justify-content-center align-items-center">

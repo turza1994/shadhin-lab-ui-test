@@ -15,7 +15,7 @@ const TruePotential = () => {
                     </div>
 
                     <div className="col-12 col-sm-7 d-flex justify-content-center align-items-center">
-                        <img className="w-75 img-fluid header-img" src="header-img.png" alt="" />
+                        <img className="w-75 img-fluid header-img rounded" src="team.jpg" alt="" />
                     </div>
                 </div>
             </div>
