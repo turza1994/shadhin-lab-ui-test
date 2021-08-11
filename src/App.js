@@ -6,6 +6,8 @@ import GrowingFast from './components/GrowingFast/GrowingFast';
 import Header from './components/Header/Header';
 import LiveCourses from './components/LiveCourses/LiveCourses';
 import OurFocus from './components/OurFocus/OurFocus';
+import SubscribeNewsletter from './components/SubscribeNewsletter/SubscribeNewsletter';
+import TruePotential from './components/TruePotential/TruePotential';
 import UpcomingCourses from './components/UpcomingCourses/UpcomingCourses';
 import WhyAreYouHere from './components/WhyAreYouHere/WhyAreYouHere';
 
@@ -21,6 +23,8 @@ function App() {
       <OurFocus />
       <GrowingFast />
       <FeaturesAndValue />
+      <TruePotential />
+      <SubscribeNewsletter />
     </div>
   );
 }
